@@ -88,6 +88,19 @@ class ViewController: UIViewController {
     UIApplication.shared.isIdleTimerDisabled = true
   }
   
+  @IBAction func buttonPlayClick(_ sender: Any) {
+    guard !RadioPlayer.sharedInstance.currentlyPlaying() else {
+      RadioPlayer.sharedInstance.pause()
+      return
+    }
+    RadioPlayer.sharedInstance.play()
+    
+  }
+  @IBAction func buttonPauseClick(_ sender: Any) {
+    RadioPlayer.sharedInstance.pause()
+  }
+  
+  
 }
 
 extension ViewController: UITableViewDataSource {

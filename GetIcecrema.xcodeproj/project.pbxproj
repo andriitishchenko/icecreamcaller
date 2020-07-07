@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ABC790624B51306001596AF /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC790524B51306001596AF /* RadioPlayer.swift */; };
+		4ABC790A24B51391001596AF /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC790924B51391001596AF /* Globals.swift */; };
 		4AE9F46E24B4E26C00B1E25A /* IceSound.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4AE9F46D24B4E26C00B1E25A /* IceSound.mlmodel */; };
 		E8397CE1239E9B10001186EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8397CE0239E9B10001186EA /* AppDelegate.swift */; };
 		E8397CE3239E9B10001186EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8397CE2239E9B10001186EA /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4ABC790524B51306001596AF /* RadioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
+		4ABC790924B51391001596AF /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		4AE9F46D24B4E26C00B1E25A /* IceSound.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IceSound.mlmodel; sourceTree = "<group>"; };
 		E8397CDD239E9B10001186EA /* GetIcecrema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetIcecrema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8397CE0239E9B10001186EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +64,9 @@
 			children = (
 				E8397CE0239E9B10001186EA /* AppDelegate.swift */,
 				E8397CE2239E9B10001186EA /* SceneDelegate.swift */,
+				4ABC790524B51306001596AF /* RadioPlayer.swift */,
 				E8397CE4239E9B10001186EA /* ViewController.swift */,
+				4ABC790924B51391001596AF /* Globals.swift */,
 				E8397CE6239E9B10001186EA /* Main.storyboard */,
 				E8397CE9239E9B12001186EA /* Assets.xcassets */,
 				E8397CEB239E9B12001186EA /* LaunchScreen.storyboard */,
@@ -145,6 +151,8 @@
 				E8397CE1239E9B10001186EA /* AppDelegate.swift in Sources */,
 				4AE9F46E24B4E26C00B1E25A /* IceSound.mlmodel in Sources */,
 				E8397CE3239E9B10001186EA /* SceneDelegate.swift in Sources */,
+				4ABC790624B51306001596AF /* RadioPlayer.swift in Sources */,
+				4ABC790A24B51391001596AF /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
